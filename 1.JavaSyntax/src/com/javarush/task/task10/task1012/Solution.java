@@ -56,3 +56,17 @@ public class Solution {
         }
     }
 }
+
+/*
+ГЕНИАЛЛЬНОЕ РЕШЕНИЕ!
+
+        for (char x : alphabet){
+            int counter = 0;
+            for (String s : list){
+                for (char y : s.toCharArray()){
+                    if (y == x){counter++;}
+                }
+            }
+            System.out.println(x + " " + counter);
+}
+ */
