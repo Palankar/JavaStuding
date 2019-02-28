@@ -14,11 +14,14 @@ import java.io.*;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
+        //Чтение с консоли
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
+        //Указание пути файла и самого файла
         BufferedWriter writer = new BufferedWriter(new FileWriter(reader.readLine()));
+
+        //Цикд с записью введенного в консоль
         while (true) {
-            String s = reader.readLine();
+            String s = reader.readLine();       //Чтобы можно было проверить условие
             if(s.equals("exit")) {
                 writer.write(s);
                 break;
