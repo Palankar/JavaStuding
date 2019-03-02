@@ -11,7 +11,6 @@ target/
 *.info
 *.properties
 *.jar
-*.gitignore
 
 /1.JavaSyntax/
 /3.JavaMultithreading/
