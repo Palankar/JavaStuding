@@ -57,7 +57,7 @@ public class Solution {
                 while (!isInterrupted()) {
                     if (reader.ready()) {
                         result.add(reader.readLine());
-                        readStringCount.set(readStringCount.get() + 1);
+                        readStringCount.incrementAndGet();
                     }
                 }
             } catch (IOException e) {
